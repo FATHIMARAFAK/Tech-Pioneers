@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   background-image: url(greycar.jpg.png);
+    text-align: center;
+    background-color: #9f9393;
+    background-size: 60%;
+    
+}
+
+.container {
+    max-width: 600px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.185);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #333;
+    
+}
+
+p {
+    color: #282727;
+}
+
+.next-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;  /* Ensures it's at the right-bottom corner */
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 15px 40px; /* Adjusted padding for better appearance */
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.next-button:hover {
+    background-color: #0056b3;
+}

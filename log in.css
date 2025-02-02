@@ -1,0 +1,77 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+           
+            height: 100vh;
+            margin: 0;
+            flex-direction: column;
+            background-repeat:no-repeat ;
+            background-size: 100%;
+            padding: 24px;
+            background-image: url(https://img.freepik.com/free-photo/horizontal-picture-car-parking-underground-garage-interior-with-neon-lights-autocars-parked-buildings-urban-constructions-space-transportation-vehicle-night-city-concept_343059-3077.jpg?t=st=1738423874~exp=1738427474~hmac=61432299f2a894ddcc74c0d74a4101771a9bc6a427517beac25012783496f656&w=740);
+        }
+
+            .wrapper {
+                flex:1;
+                display:flex;
+                align-items: center;
+                justify-content: center;
+            }
+       
+        .login-container {
+            background:transparent;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 300px;
+        }
+        input {
+            width: 92%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            text-align: center;
+        }
+        
+       
+        
+        
+        .login-btn {
+            width: 97%;
+            padding: 10px;
+            background-color: rgb(59, 156, 29);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .login-btn:hover {
+            background-color: rgb(128, 128, 155);
+        }
+        .forgot-password {
+            display: block;
+            margin-top: 10px;
+            font-size: 14px;
+            color: blue;
+            text-decoration: none;
+            margin-left:300px ;
+        }
+        .forgot-password:hover {
+            text-decoration: underline;
+        }
+        .photo{
+            width: 30px;
+            height:30px;
+         }
+           
+    .PARK{
+        color: aliceblue;
+        
+    }
+            
+        

@@ -1,0 +1,80 @@
+
+        body {
+            
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+            background-image: url('https://img.freepik.com/free-photo/horizontal-picture-car-parking-underground-garage-interior-with-neon-lights-autocars-parked-buildings-urban-constructions-space-transportation-vehicle-night-city-concept_343059-3077.jpg?t=st=1738422324~exp=1738425924~hmac=91d78a10d60c4f9e10154129b1220538e3fc00ea3684f39e94104c75dbf39e8b&w=826');
+            background-repeat: no-repeat;
+            background-size: 100%;
+            margin: 0;
+            padding:24px;
+        }
+        .wrapper {
+            flex:1;
+            display:flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .signup-container {
+            background: transparent;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(2,2,73);
+            text-align: center;
+            width: 300px;
+           
+        }
+        .title {
+            width:100%;
+            display:flex;
+            margin-top: 10px;
+            font-size: 24px;
+            align-items: center;
+            font-weight: bold;
+            color: rgb(250, 248, 247)
+           
+            
+        }
+        input {
+            width: 92%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .signup-btn {
+            width: 100%;
+            padding: 10px;
+            background-color: rgb(59,156,29);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .signup-btn:hover {
+            background-color: rgb(128,128,157);
+        }
+        
+        .login-link {
+            display: block;
+            margin-top: 10px;
+            font-size: 14px;
+            color: #0d34df;
+        }
+        .login-link:hover {
+            color: dark blue;
+        }
+    
+    .photo{
+        width: 30px;
+        height:30px; 
+        
+
+        }
+    
