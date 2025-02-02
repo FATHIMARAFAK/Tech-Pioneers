@@ -7,6 +7,11 @@
 
     <!-- Leaflet.js CSS -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/11.2.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/11.2.0/firebase-firestore-compat.js"></script>
+    <script src="api.js"></script>
+
 
     <style>
         /* Global Styles */
@@ -111,6 +116,7 @@
         </div>
 
         <button onclick="markCurrentLocation()">📍 Mark My Location</button>
+        <button onclick="saveLocation()">📍 Save</button>
         <button onclick="findMyCar()">🔍 Find My Car</button>
 
         <div id="map"></div>

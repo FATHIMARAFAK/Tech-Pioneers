@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="log in.css">
+
+    <title>Login | PARK ME</title>
+    </head>
+    <body>
+    <div class="title">
+    <span >
+        <img class="photo" src="p2-removebg-preview.png"/>
+        <span class="PARK">
+            ARK ME 
+            </span>
+       </span>
+   
+   </div>
+   <div  class="wrapper">
+    <div class="signup-container">
+        <form>
+            <input type="email" placeholder="Enter your Email ID" required>
+            <input type="password" placeholder="Enter your Password" required>
+            <button class="login-btn" type="submit">Login</button>
+            <a href="#" class="forgot-password">Forgot Password?</a>
+        </form>
+    </div>
+
+</body>
+</html>
+<script>
+("DOMContentLoaded", function () {
+    const form = document.querySelector("form");
+
+    form.addEventListener("submit", function (event) {
+        event.preventDefault();
+
+        const email = form.querySelector('input[type="email"]').value.trim();
+        const password = form.querySelector('input[type="password"]').value.trim();
+
+        if (!email || !password) {
+            alert("Please fill in all fields.");
+            return;
+        }
+
+        // Dummy authentication check
+        if (email === "user@example.com" && password === "password123") {
+            alert("Login successful!");
+            // Redirect to dashboard or another page
+            window.location.href = "page.html"; 
+        } else {
+            alert("Invalid email or password.");
+        }
+    });
+})();
+</script>

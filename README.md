@@ -1,17 +1,17 @@
-# [Project Name] 🎯
+# [PARK ME] 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: [Tech Pioneers]
 
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Member 1: [MURSHIDA KK] - [EMEA COLLEGE OF ARTS AND SCIENCE]
+- Member 2: [FATHIMA RAFA K] - [EMEA COLLEGE OF ARTS AND SCIENCE]
+- Member 3: [AFRIN AYSHA MD] - [EMEA COLLEGE OF ARTS AND SCIENCE]
 
 ### Hosted Project Link
-[mention your project hosted project link here]
+[]
 
 ### Project Description
 [2-3 lines about what your project does]
