@@ -1,8 +1,8 @@
-# [PARK ME] 🎯
+# PARK ME 🎯
 
 
 ## Basic Details
-### Team Name: [Tech Pioneers]
+### Team Name: Tech Pioneers
 
 
 ### Team Members
@@ -11,33 +11,30 @@
 - Member 3: [AFRIN AYSHA MD] - [EMEA COLLEGE OF ARTS AND SCIENCE]
 
 ### Hosted Project Link
-[]
+https://tech-pioneers.vercel.app
 
 ### Project Description
-[2-3 lines about what your project does]
+this is a website used to find the exact position of the vehicle parked.
 
 ### The Problem statement
-[What ridiculous problem are you solving?]
+reduce the difficultiness of finding own vehicles from parked areas.
 
 ### The Solution
-[How are you solving it? Keep it fun!]
+not added manymore features,created with simple properties.
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+- html,css,js.
+- 
+- 
+- 
+firebase
 
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
 
 ### Implementation
 For Software:
-# Installation
+html,css,js
 [commands]
 
 # Run
@@ -47,11 +44,9 @@ For Software:
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+
+![Screenshot2]
 
 ![Screenshot3](Add screenshot 3 here with proper name)
 *Add caption explaining what this shows*
